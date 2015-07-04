@@ -1,0 +1,13 @@
+html,body{
+	margin:0 auto;
+	padding: 0;
+	overflow-x: hidden;
+	overflow-y:auto;
+	width: 100%; 
+}
+.demo-container{
+	padding:2% 3%;
+}
+.title-section{
+	text-align: center
+}

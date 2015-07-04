@@ -1,0 +1,50 @@
+    .accordion-container{
+        padding: 3%;
+        border-bottom: 1px solid #93969b;      
+    }
+    .accordion-container h2 {
+        padding-bottom: 1%;
+        font-weight: normal;
+        cursor: pointer;
+    }
+    .accordion-arrow-left h2:before {
+        content: " ";
+        float: right;
+        margin-right: 0%;
+        border-bottom: 6px solid transparent;
+        border-top: 6px solid transparent;
+        border-left: 6px solid #888;
+        border-right: 6px solid transparent;
+        margin-top: 0.4%;
+    }
+    .accordion-arrow-left h2:after {
+        content: " ";
+        float: right;
+        margin-right: -10px;
+        border-bottom: 6px solid transparent;
+        border-top: 6px solid transparent;
+        border-left: 6px solid white;
+        border-right: 6px solid transparent;
+        margin-top: 0.4%;
+    }
+   .accordion-arrow-down h2:before {
+        content: " ";
+        float: right;
+        margin-right: 0px;
+        border-bottom: 6px solid transparent;
+        border-top: 6px solid #888;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        margin-top: 4px;
+    }
+    .accordion-arrow-down h2:after {
+        content: " ";
+        float: right;
+        margin-right: -12px;
+        border-bottom: 6px solid transparent;
+        border-top: 6px solid white;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        margin-top: 2px;
+    }
+    
